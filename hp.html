@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday My Heart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="greeting">Happy Birthday My Heart 💖</h1>
+  <div class="heart-container">
+    <div class="heart" onclick="showQuestion()">Click Me</div>
+  </div>
+
+  <div id="question-section" style="display:none;">
+    <h2>What's our best memory?</h2>
+    <button onclick="checkAnswer('hug')">Hug</button>
+    <button onclick="checkAnswer('kiss')">Kiss</button>
+  </div>
+
+  <div id="gallery" style="display:none;">
+    <h2>Our Beautiful Moments</h2>
+    <div class="photo-grid">
+      <!-- Add your images here -->
+      <img src="images/photo1.jpg" class="animated-photo">
+      <img src="images/photo2.jpg" class="animated-photo">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
